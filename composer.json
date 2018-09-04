@@ -1,0 +1,21 @@
+{
+    "name": "dungvothanh07/helloworlds",
+    "type": "library",
+    "version": "v1.0.6",
+    "description": "Test publish package",
+    "keywords": ["test"],
+    "minimum-stability": "dev",
+    "homepage": "https://github.com/dungvothanh07/helloworld-package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dung Vo Thanh",
+            "email": "dung.vothanh@apps-cyclone.com"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Dungvothanh07\\Helloworlds\\": "src/"
+        }
+    }
+}
